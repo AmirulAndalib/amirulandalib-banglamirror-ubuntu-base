@@ -10,7 +10,7 @@ RUN chmod 777 /usr/src/app
 
 RUN apt-get update -y && apt-get upgrade -y && \
     apt-get install -y qbittorrent-nox \
-    wget curl git zip unzip medainfo neofetch \
+    wget curl git zip unzip mediainfo neofetch \
     tzdata p7zip-full p7zip-rar xz-utils curl pv jq ffmpeg \
     software-properties-common \
     python3.10 python3-pip python3-lxml aria2 \
